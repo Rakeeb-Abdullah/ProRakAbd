@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Luckiest+Guy&display=swap');
+
+.work-heading {
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.card-image {
+    width: 75%;
+    margin-right: 20px;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.web-card {
+    background-color: rgba(230,230,230,0.5);
+    border: solid rgb(61, 60, 60) 5px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card-des {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.card-link {
+    color: black;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .card-image {
+        margin: 10px;
+        width: 100%;
+    }
+    .web-card {
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Luckiest+Guy&display=swap');
+
+body {
+  height: 100%;
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/email-pattern.png);
+}
+.header {
+  position: relative;
+  background-color: #40869b;
+  height: 40vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.index-header {
+  position: relative;
+  background-color: black;
+  height: 80vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+#pro-rak-abd-head {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -90px; /* the bottom margin is the negative value of the footer's height */
+}
+.sm-links {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.footer {
+  background-color: #343a40;
+  margin-top: 20px;
+}
+
+.fab {
+  color: #fafafb;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#copyright {
+  margin-top: 5px;
+  color: #d7d7df;
+}
+
+.content-box-out {
+  border: solid black 2px;
+  width: 50%;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 5px;
+}
+.content-box-in {
+  display: flex;
+}
+.footer,
+.push {
+  height: 90px; /* .push must be the same height as .footer */
+}
+
+
+
+@media (pointer: coarse) and (hover: none) {
+}
